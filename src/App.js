@@ -1,11 +1,13 @@
 import { Header } from './components/Header/Header'
-import { TinderCards } from './components/TinderCards/TinderCards'
+import { SwipeButtons } from './components/SwipeButtons/SwipeButtons'
+import TinderCards from './components/TinderCards/TinderCards'
 
 function App() {
 	return (
-		<div className='app'>
+		<div style={{width: '100%', height: '100%' }}>
 			<Header />
-      <TinderCards />
+			<TinderCards />
+			<SwipeButtons />
 		</div>
 	)
 }
